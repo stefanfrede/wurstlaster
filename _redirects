@@ -1,0 +1,3 @@
+# Redirect domain aliases to primary domain
+https://www.wurstlaster.de/* https://das.wurstlaster.de/:splat 301!
+https://wurstlaster.de/* https://das.wurstlaster.de/:splat 301!
