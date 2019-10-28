@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": ["www.wurstlaster.de", "wurstlaster.de"],
+  "alias": ["das.wurstlaster.de"],
   "routes": [
     {
       "src": "/(.*)",
