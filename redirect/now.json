@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "alias": ["www.wurstlaster.de", "wurstlaster.de"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://das.wurstlaster.de/$1"  }
+    }
+  ]
+}
