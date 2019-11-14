@@ -33,31 +33,35 @@
       width: 100vw;
     }
 
-    section {
-      background-image: url('./wurstlaster.svg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
+    main {
+      text-align: center;
     }
 
     h1 {
       font-family: 'Nixie One', cursive;
-      font-size: 48px;
+      font-size: 3rem;
       font-weight: normal;
-      margin: 1rem 0 2rem;
+      margin: 0 0 2rem;
       text-shadow: -1px -1px 0 #fff,
                     1px -1px 0 #fff,
                    -1px  1px 0 #fff,
                     1px  1px 0 #fff;
 
     }
+
+    img {
+      display: inline-block;
+      height: 128px;
+      width: 128px;
+    }
   </style>
 </head>
 <body>
-  <section>
+  <main id="main">
+    <img src="/wurstlaster.png" alt="street food bicycle">
     <h1>
       Das Wurstlaster
     </h1>
-  </section>
+  </main>
 </body>
 </html>
