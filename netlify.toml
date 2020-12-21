@@ -1,0 +1,23 @@
+[[redirects]]
+  from = "http://www.wurstlaster.de/*"
+  to = "https://das.wurstlaster.de"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.wurstlaster.de/*"
+  to = "https://das.wurstlaster.de"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://wurstlaster.de/*"
+  to = "https://das.wurstlaster.de"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://wurstlaster.de/*"
+  to = "https://das.wurstlaster.de"
+  status = 301
+  force = true
